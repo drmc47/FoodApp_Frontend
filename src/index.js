@@ -12,7 +12,7 @@ import Landing from './components/Landing/Landing';
 import AddRecipe from './components/AddRecipe/AddRecipe';
 import axios from 'axios';
 
-axios.defaults.baseURL = process.env.REACT_APP_API || 'http://localhost:8001'
+axios.defaults.baseURL = 'https://foodapp-drmc47.herokuapp.com'
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
