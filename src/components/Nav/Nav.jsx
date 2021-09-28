@@ -3,8 +3,6 @@ import {Link} from 'react-router-dom';
 import { filterDiet, orderAZ, orderScore, searchRecipe } from '../../actions';
 import {useDispatch} from 'react-redux';
 import './Nav.css';
-import Button from '@material-ui/core/Button';
-import {yellow} from '@material-ui/core/colors';
 
 
 
